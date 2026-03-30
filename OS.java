@@ -1,5 +1,6 @@
 // OS.java
 public class OS {
+    // 定义属性并封装
     private String name;      // 系统名称
     private String version;   // 系统版本
     private String kernel;    // 内核类型
@@ -13,7 +14,7 @@ public class OS {
         this.developer = developer;
     }
 
-    // Getter 方法（封装）
+    // Getter 方法 (封装)
     public String getName() {
         return name;
     }
